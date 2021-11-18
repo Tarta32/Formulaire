@@ -1,0 +1,85 @@
+.cpville{
+    display: flex;
+    justify-content: space-around;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  form{
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    padding: 30px;
+    width: 300px;
+    background-color: rgb(141, 82, 82);
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px 5px grey;
+  }
+
+  #name,#surname,#adress,#email{
+      width: 250px;
+      border-radius: 10px;
+  }
+
+  .res1,.res2,.res3,.res4,.res5,.res6{
+      height: 20px;
+  }
+
+  #city,#postal{
+      width: 100px;
+      border-radius: 10px;
+  }
+
+  .button{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  #valider{
+    padding: 5px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: green;
+    border-style: none;
+    border: 1px solid green;
+    box-shadow: 2px 2px 5px black;
+  }
+
+  #annuler{
+      padding: 5px;
+      width: 100px;
+      border-radius: 50px;
+      background-color: red;
+      border-style: none;
+      border: 1px solid red;
+      box-shadow: 2px 2px 5px black;
+  }
+
+  #valider:hover,#annuler:hover{
+      cursor: pointer;
+      border: 1px solid black;
+  }
+
+::placeholder{
+    text-align: center;
+    color: grey;
+}
+input:focus-visible{
+    outline: none;
+    border: 2px solid green;
+}
+input{
+    height: 25px;
+    text-align: center;
+    color: white;
+    border: none;
+    background-color: rgb(30, 5, 31);
+    border: 2px solid rgb(30, 5, 31);
+}
